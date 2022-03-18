@@ -69,24 +69,24 @@ h2 {
   padding: 120px 0px;
 }
 
-.about-me,
+.content,
 h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-me,
+.content,
 h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section {
+.content.container {
   padding: 160px 20px;
 }
-.about-me {
+.content {
   margin: 30px;
 }
 @media (max-width: 960px) {
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
