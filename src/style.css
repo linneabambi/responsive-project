@@ -41,7 +41,7 @@ p {
 h2 {
   font-weight: normal;
   font-size: 24px;
-  line-height: 2;
+  line-height: 1.5;
   color: #403b51;
   font-family: var(--default-font-family);
 }
@@ -64,4 +64,19 @@ h2 {
   font-size: 18px;
   padding: 15px 30px;
   border: 1px solid var(--branding-color);
+}
+.project-description {
+  padding: 120px 0px;
+}
+@media (max-width: 960px) {
+  .hero {
+    padding: 80px 20px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
