@@ -28,12 +28,25 @@
   </head>
   <body>
     <div class="container content-container">
+      <nav class="d-flex justify-content-between pe-3 me-5">
+        <img class="logo ms-5 img-fluid" src="img/logo-1.png" alt="" />
+        <ul>
+          <li><a href="/" title="" class="">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="" class="">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="" class="">Work</a>
+          </li>
+          <li><a href="/contact.html" title="" class="">Contact</a></li>
+        </ul>
+      </nav>
       <div class="row mt-5">
         <div class="col-lg-6">
-          <div class="content container p-5">
-            <h1 class="mb-5">Hi I am Linnéa Malmberg</h1>
-            <h2 class="mb-5">Front-end developer from Sweden</h2>
-            <p class="mb-3">
+          <div class="content container p-5 ms-2 me-5">
+            <h1 class="mb-3 mt-5">Hi I am Linnéa Malmberg</h1>
+            <h2 class="mb-4 font-family">Front-end developer from Sweden</h2>
+            <p class="mb-5 about-text">
               For anyone who wants to start learning code, this workshop is very
               interesting. You will be challenged with different exercises, and
               everything is well explained, homework and deadlines are good for
@@ -42,8 +55,11 @@
             <a class="btn btn-branding">Veiw all projects</a>
           </div>
         </div>
-        <div class="col-lg-6">
-          <img class="img-fluid rounded" src="img/me.jpeg" />
+        <div class="col-lg-6 p-5">
+          <img
+            class="img-fluid m-5 border-radius about-picture"
+            src="img/me.jpeg"
+          />
         </div>
       </div>
     </div>
