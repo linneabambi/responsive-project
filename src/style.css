@@ -121,7 +121,7 @@ p {
   margin: 30px;
 }
 .logo {
-  max-width: 150px;
+  max-height: 40px;
 }
 nav {
   padding: 20px 0;
@@ -148,6 +148,15 @@ nav a:hover {
 .active a {
   color: var(--branding-color);
 }
+
+h2,
+.project-heading {
+  font-family: var(--heading-font-family);
+  font-size: 35px;
+}
+.about-picture {
+  width: 600px;
+}
 @media (max-width: 960px) {
   .content-container {
     text-align: center;
@@ -164,12 +173,8 @@ nav a:hover {
     text-align: center;
   }
 }
-h2,
-.project-heading {
-  font-family: var(--heading-font-family);
-  font-size: 35px;
-}
-.about-picture {
-  width: 600px;
- 
+@media (max-width 450px) {
+  .small-logo {
+    display: none;
+  }
 }
