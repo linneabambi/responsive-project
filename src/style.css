@@ -48,10 +48,16 @@ p {
   font-size: 16px;
   line-height: 1.8;
 }
+.open-source {
+  transition: all 100ms ease-in-out;
+}
+.open-source:hover {
+  color: var(--branding-color);
+}
 .hero {
   background-color: var(--second-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero,
 p {
@@ -118,7 +124,7 @@ p {
   margin: 0;
 }
 .content.container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content {
   margin: 30px;
